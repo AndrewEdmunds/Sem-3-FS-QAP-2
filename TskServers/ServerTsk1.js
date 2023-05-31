@@ -8,32 +8,28 @@ const server = http.createServer((request, response) => {
   switch (url) {
     case "/":
       response.writeHead(200, { "Content-Type": "text/html" });
-      response.end("<h1>Welcome to the homepage!</h1>");
+      response.end("<h1>Homepage</h1>");
       console.log("Homepage requested");
       break;
     case "/about":
       response.writeHead(200, { "Content-Type": "text/html" });
-      response.end("<h1>About Us</h1><p>This is the about page.</p>");
+      response.end("<h1>About Page</h1><p>filler content in ServerTsk2</p>");
       console.log("About page requested");
       break;
     case "/contact":
       response.writeHead(200, { "Content-Type": "text/html" });
-      response.end(
-        "<h1>Contact Us</h1><p>Contact us at example@example.com.</p>"
-      );
+      response.end("<h1>Contact Page</h1><p>filler content in ServerTsk2</p>");
       console.log("Contact page requested");
       break;
     case "/products":
       response.writeHead(200, { "Content-Type": "text/html" });
-      response.end(
-        "<h1>Our Products</h1><p>Check out our amazing products!</p>"
-      );
+      response.end("<h1>Product Page</h1><p>filler content in ServerTsk2</p>");
       console.log("Products page requested");
       break;
     case "/subscribe":
       response.writeHead(200, { "Content-Type": "text/html" });
       response.end(
-        "<h1>Subscribe to Our Newsletter</h1><p>Subscribe to receive updates.</p>"
+        "<h1>Subscribe Page</h1><p>filler content in ServerTsk2</p>"
       );
       console.log("Subscribe page requested");
       break;
