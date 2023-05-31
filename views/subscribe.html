@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscribe Page</title>
+    <style>
+      /* Add your custom styles here */
+      body {
+        background-color: #9bffa8;
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        background-color: #333;
+        padding: 10px;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      li {
+        display: inline;
+      }
+      li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px;
+      }
+      li a:hover {
+        background-color: #fff;
+        color: #333;
+      }
+      h1 {
+        color: #333;
+        font-size: 50px;
+        text-align: center;
+      }
+      p {
+        color: #666;
+        font-size: 20px;
+        position: absolute;
+        top: 30%;
+        left: 0;
+        right: 0;
+        text-align: center;
+      }
+      form {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+      }
+      input[type="email"] {
+        margin-top: 15px;
+      }
+      button[type="submit"] {
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/products">Products</a></li>
+        <li><a href="/subscribe">Subscribe</a></li>
+      </ul>
+    </nav>
+    <h1>Subscribe to My Newsletter</h1>
+    <p>Please enter your email to subscribe.</p>
+    <form>
+      <input type="email" name="email" placeholder="Enter your email" /><br />
+      <button style="margin-top: 15px" type="submit">Subscribe</button>
+    </form>
+  </body>
+</html>
